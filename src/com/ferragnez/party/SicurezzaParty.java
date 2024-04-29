@@ -16,7 +16,7 @@ public class SicurezzaParty {
 		System.out.print("Inserisci il tuo nome: ");
 		String utente = input.nextLine();
 		
-		// adesso verifico che il nome dell'utente venga venga accettato, per farlo riprendo il metodo accettaOspite che ho messo in Party:
+		// adesso verifico che il nome dell'utente venga accettato, per farlo riprendo il metodo accettaOspite che ho messo in Party:
 		if(party.accettaOspite(utente)) {
 			System.out.println("Benvenuto alla festa!");
 		} else {
